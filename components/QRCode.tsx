@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function QRCode() {
   return (
-    <div className="mx-auto flex-col items-center rounded-3xl bg-white p-5 shadow-md">
+    <div className="mx-auto w-auto flex-col items-center rounded-3xl bg-white p-5 shadow-md">
       <div className="relative mx-auto mb-6 h-80 w-80">
         <Image
           className="rounded-3xl"
