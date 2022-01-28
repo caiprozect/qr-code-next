@@ -11,7 +11,7 @@ function QRCode() {
           objectFit="contain"
         />
       </div>
-      <div className="-mx-3 flex w-72 flex-col items-center font-outfit sm:w-80 sm:px-2">
+      <div className="-mx-3 flex w-72 flex-col items-center font-outfit sm:mx-0 sm:w-80 sm:px-2">
         <h1 className="mb-4 text-center text-2xl font-bold text-[#1f3251]">
           Improve your front-end skills by building projects
         </h1>
