@@ -7,12 +7,10 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+        </style>
       </Head>
 
       <main className="flex h-screen w-screen items-center bg-[#d6e2f0]">
